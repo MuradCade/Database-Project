@@ -27,7 +27,7 @@ elif(opt == 2):
         item2 = str(input("\tEnter the Username: "))
         item3 = str(input("\tEnter Password: "))
         
-    #creating cursor use to give instruction to data base
+  
         
 
         # inserting data
@@ -46,7 +46,7 @@ elif(opt == 2):
             print("\tData Saved")
 
 
-
+#deleting the data
 else:
     os.system("CLS")
     print("\tData Deleted Sucess Fully")
